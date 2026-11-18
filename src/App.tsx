@@ -633,7 +633,8 @@ function canAddSpot(chosenIds, candidateId) {
 // ==========================================
 
 // Puck ON officiel posé sur le Point Marqué
-constOnPuck = ({ size = 40 }) => (
+// Puck ON officiel posé sur le Point Marqué
+const OnPuck = ({ size = 40 }) => (
   <svg width={size} height={size} viewBox="0 0 100 100" className="drop-shadow-[0_4px_6px_rgba(0,0,0,0.85)] select-none">
     <circle cx="50" cy="54" r="45" fill="#080c0a" />
     <circle cx="50" cy="50" r="45" fill="#f7f7f2" stroke="#181818" strokeWidth="6" />
